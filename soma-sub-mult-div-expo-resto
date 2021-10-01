@@ -1,0 +1,20 @@
+# Inicialmente, pedimos os dois números para o usuário
+# Vamos transformar ele em float
+num1 = float( input("Digite um numero: ") )
+num2 = float( input("Digite outro numero: ") )
+
+soma = num1 + num2
+subtração = num1  - num2
+mult = num1 * num2
+div = num1 / num2
+expo = num1 ** num2
+resto = num1 % num2
+
+print('Soma:             ', num1,'+',num2,' = ' , soma)
+print('Subtração:        ', num1,'-',num2,' = ' , subtração)
+print('Multiplicação:    ', num1,'*',num2,' = ' , mult)
+print('Divisão:          ', num1,'/',num2,' = ' , div)
+print('Exponenciação:    ', num1,'**',num2,' = ', expo)
+print('Resto da divisão: ', num1,'%',num2,' = ' , resto)
+
+# caso queira adicionar casa decimais, entre as {}, eu adiciono :.3f
